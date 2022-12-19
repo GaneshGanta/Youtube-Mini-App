@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Mini App 3</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="side-bar.css">
+    <style>
+        
+        #video>img{
+            width: 300px;
+        }
+    </style>            
+
+
+</head>
+<body>
+    <div class="header">
+
+        <div class="left">
+            <img class="menu" src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-17/icons/hamburger-menu.svg" alt="">
+          <img  class="logo" src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-17/icons/youtube-logo.svg" alt="">
+        </div>
+        
+        <div class="middle">
+            <input type="text" class="search-bar" placeholder="search">
+            <button onclick="search()" class="search">
+               <img  class="search-logo" src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-17/icons/search.svg" alt="">
+            </button>
+
+            <button class="mic">
+                <img class="mic-logo" src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-17/icons/voice-search-icon.svg" alt="">
+               
+            </button>
+        </div>
+
+        <div class="right">
+           <img class="upload" src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-17/icons/upload.svg" alt="">
+           <img class="apps" src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-17/icons/youtube-apps.svg" alt="">
+           <img class="notification" src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-17/icons/notifications.svg" alt="">
+           <img  class="user" src="https://yt3.ggpht.com/yti/APfAmoE2coCom9HzOvHbfjJeKeg2xpGw1br80pTXHw=s88-c-k-c0x00ffffff-no-rj-mo" alt="">
+        </div>
+       
+    </div>
+
+    <div class="side-bar">
+       
+        <div class="s">
+            <img src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-17/icons/home.svg" alt="">
+            <div>Home</div>
+        </div>
+        <div class="s">
+            <img src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-17/icons/explore.svg" alt="">
+  
+            <div>Explore</div>
+        </div>
+        <div class="s">
+            <img src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-17/icons/subscriptions.svg" alt="">
+            <div>Subscriptions</div>
+        </div>
+        <div class="s">
+            <img src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-17/icons/originals.svg" alt="">
+            <div>Originals</div>
+        </div>
+        <div class="s">
+            <img src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-17/icons/youtube-music.svg" alt="">
+            <div>YouTube Music</div>
+        </div>
+        <div class="s">
+            <img src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-17/icons/library.svg" alt="">
+            <div>Library</div>
+        </div>
+
+    </div>
+
+    <div id="filter">
+
+    </div>
+    
+    <div id="container">
+
+    </div>
+     
+</body>
+</html>
+<script src="index.js">
+</script>

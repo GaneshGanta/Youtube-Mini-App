@@ -1,0 +1,35 @@
+.side-bar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    width: 72px;
+    
+    box-sizing: border-box;
+}
+.s{
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+       
+}.s:hover{
+    background-color: grey;
+}.s>img{
+    width: 40%;
+    
+}.s >div{
+    font-size: 12px;
+    font-weight: bold;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+   
+}#container > div>img{
+    width: 100%;
+}
